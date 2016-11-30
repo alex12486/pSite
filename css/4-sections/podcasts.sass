@@ -1,0 +1,50 @@
+.podcasts
+	background: 
+		image: url(../img/podcast-bg.jpg)
+		size: cover
+		position: center
+	color: white
+
+
+	.col-2
+		width: 100%
+
+	.col-1
+		width: 100%
+
+		.home-cta
+			background: #8d16de
+			color: white
+
+		&:last-child
+			.home-cta
+				background: #13cbdf
+
+	.home-lead
+		color: white
+		text-align: center
+
+	.podcast-content
+		display: flex
+		margin-bottom: 20px
+		padding: 0 10px
+
+
+	.podcast-thumb
+		margin-right: 30px
+		img
+			+size(150px)
+
+	.podcast-text
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+		width: 100%
+
+
+		.title
+			font-size: 30px
+			line-height: 1.1
+			margin-bottom: 20px
+
+

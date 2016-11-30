@@ -1,0 +1,206 @@
+@media (max-width: 775px)
+	body
+		.home-wrap
+			display: block
+			header
+				width: auto
+				padding: 20px 0
+
+				.header-position
+					width: auto
+					position: relative
+					top: auto
+					bottom: auto
+					left: auto
+					flex-direction: row
+					align-items: center
+
+				.site-nav,
+				.email-link
+					display: none
+
+				.logo
+					height: 45px
+
+				.mobile-nav-toggle
+					display: flex
+
+			.mobile-nav.is-open
+				display: block
+				transform: translateY(10%)
+
+@media (max-width: 1000px)
+	.flex-video
+		transform: scale(1)
+
+	section.articles
+		.article-thumb
+			width: 33.3%
+
+
+@media (max-width: 920px)
+	section.articles
+		.col-50:first-child
+			margin: -50px 0
+
+@media (max-width: 640px)
+	.home-sections
+		section
+			.flex
+				display: block
+
+				.col-1
+					max-width: 100%
+					&.push-right
+						margin-left: auto
+
+				.col-50
+					width: auto
+
+
+
+		.home-lead
+			text-align: center
+			font-size: 30px
+			&.outdented
+				text-indent: 0
+	section.about
+		h2, .home-lead
+			max-width: 300px
+			margin-left: auto
+			margin-right: auto
+			text-align: center
+
+	section.youtube
+		.flex
+			height: auto
+
+			.col-1
+				display: block
+				height: auto
+				padding: 50px 20px
+				width: 100%
+				box-sizing: border-box
+				margin: 0
+
+				&:last-child
+					padding-top: 0
+
+				.flex-video
+					height: 0
+					width: 100%
+
+					iframe
+						height: 100%
+						width: 100%
+						position: absolute
+	.home-sections
+		section.mentoring
+
+			.col-1
+				display: block
+
+				&:first-child
+					margin: 0
+					height: 320px
+				
+				&:last-child
+					width: 100%
+					box-sizing: border-box
+					margin: 0
+					padding: 50px 10px
+
+			
+				.faces	
+					width: 115px * 6
+					margin: 0
+					top: 230px
+					height: 80px
+
+					.face
+						display: inline-block
+						margin: 0 10px 0 0
+						position: relative
+
+
+
+						.bubble
+							box-sizing: border-box
+							left: -110px
+							bottom: 100px
+							margin: 0 
+						
+		section.articles
+			.col-50:first-child
+				margin-top: 0px
+				&:after
+					content: ''
+					padding-top: 25%
+					display: block
+
+			.col-50:last-child
+				margin-top: -50px
+
+
+		section.vine
+			.col-1:first-child
+				display: block
+				text-align: center
+				padding-bottom: 50px
+
+
+		section.design
+			.col-50
+				height: auto
+
+				.home-lead
+					font-size: 36px
+
+				.home-cta
+					font-size: 28px
+
+
+
+		section.notes
+			.flex
+				.col-2
+					box-sizing: border-box
+					margin: 0
+					.signup-box
+						padding: 0 10px
+
+						input[type="submit"]
+							font-size: 16px
+							padding: 0 10px
+
+				.col-1
+					box-sizing: border-box
+					margin: 0
+					padding: 0 10px
+
+					&:first-child
+						text-align: left
+						padding: 0 10px 15px 10px
+						border: none
+		section.podcasts
+			.col-1
+				box-sizing: border-box
+				margin: 0
+				padding: 0 10px
+
+			.col-2
+				box-sizing: border-box
+				margin: 0
+
+
+				.podcast-content
+					flex-direction: column
+					justify-content: center
+
+					.podcast-thumb
+						margin: 0
+						text-align: center
+						padding-bottom: 20px
+
+					.podcast-text
+						text-align: center

@@ -1,0 +1,88 @@
+section.notes
+	background: 
+		image: url(../img/notes-bg.jpg)
+		position: center
+		size: cover
+	color: white
+
+	.home-lead
+		color: white
+		text-align: center
+
+	.flex
+		.col-1
+			padding-left: 30px
+			font-size: 18px
+			font-style: italic
+			margin: 0
+			line-height: 1.8
+
+			&:first-child
+				padding-left: 0
+				padding-right: 30px
+				text-align: right
+				border-right: 2px solid white
+
+			a
+				color: white
+				text-decoration: underline
+
+			ul
+				list-style: none
+				padding: 0
+				margin: 0
+
+			p
+				margin: 0
+
+
+
+		.col-2
+			max-width: 640px
+			width: 100%
+	.signup-box
+		form
+			display: flex
+			width: 100%
+			flex-direction: row
+			margin: 50px 0
+			border: 4px solid white
+			box-sizing: border-box
+			box-shadow: 0 3px 8px rgba(0,0,0,.3)
+			background: rgba(255,255,255,.3)
+
+
+			input
+				&:focus,&:active
+					outline: none
+				font-size: 18px
+
+			.name,.email
+				position: relative
+				flex: 2
+				padding: 0 10px
+				label
+					position: absolute
+					font-size: 12px
+					left: 10px
+
+				input
+					height: 60px
+					width: 100%
+					border: 0
+					background: none
+					
+					
+					
+			.button
+				flex: 1
+				background: white
+				color: #ba9e44
+				border: 0
+				padding: 0 15px
+				font-size: 24px
+
+			.name 	
+				padding-right: 6px
+				input
+					border-right: 4px solid white
